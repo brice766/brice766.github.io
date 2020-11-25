@@ -28,11 +28,11 @@ sr.reveal('#card4', {
 }, 50);
 
 sr.reveal('#card5', {
-    delay: 1450
+    delay: 1400
 }, 50);
 
 sr.reveal('#card6', {
-    delay: 1650
+    delay: 1600
 }, 50);
 
 sr.reveal ('#anim1' , {
@@ -92,7 +92,7 @@ window.addEventListener('scroll', () => {
     }
     else{
     console.log(scrollY)
-    parallaxx.style.backgroundPositionY = (-window.scrollY / 1) + 8400 + "px";
+    parallaxx.style.backgroundPositionY = (-window.scrollY / 1) + 7600 + "px";
     // parallaxx.style.backgroundPositionY = -100 + (window.scrollY/(document.body.scrollHeight - window.innerHeight)) *100 + "px";
  
 }

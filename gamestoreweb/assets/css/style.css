@@ -150,4 +150,17 @@ input[type=checkbox] {
     }
 } 
 
+@media all and (max-width: 767px) {
+    .visible-pannel h2 {
+        font-size: 19px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .container-faq {
+
+        width: 100%;
+    }
+}
+
 /* fin de partie brice */
