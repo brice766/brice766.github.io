@@ -3,7 +3,9 @@ const sr = ScrollReveal({
     reset: true
 });
 
-sr.reveal('h1', {});
+sr.reveal('h1', {
+    delay: 600
+});
 
 sr.reveal('.lead', {
     delay: 600
@@ -14,39 +16,39 @@ sr.reveal('#card1', {
 }, 50);
 
 sr.reveal('#card2', {
-    delay: 1000
+    delay: 850
 }, 50);
 
 sr.reveal('#card3', {
-    delay: 1200
+    delay: 1050
 }, 50);
 
 sr.reveal('#card4', {
-    delay: 1500
+    delay: 1200
 }, 50);
 
 sr.reveal('#card5', {
-    delay: 1800
+    delay: 1450
 }, 50);
 
 sr.reveal('#card6', {
-    delay: 2100
+    delay: 1650
 }, 50);
 
 sr.reveal ('#anim1' , {
-    delay: 600
+    delay: 500
 })
 
 sr.reveal ('#anim2' , {
-    delay: 900
+    delay: 700
 })
 
 sr.reveal ('#anim3' , {
-    delay: 1200
+    delay: 1000
 })
 
 sr.reveal ('#anim4' , {
-    delay: 1500
+    delay: 1300
 })
 const allCross = document.querySelectorAll('.visible-pannel img');
 console.log(allCross);
@@ -83,9 +85,17 @@ allCross.forEach(element => {
 
 const parallaxx = document.getElementById('parallax');
 
+
 window.addEventListener('scroll', () => {
-    parallaxx.style.backgroundPositionY = (-window.scrollY / 1) + 3900 + "px";
+    if(window.matchMedia("(min-width:767px)").matches) {
+        parallaxx.style.backgroundPositionY = (-window.scrollY / 1) + 3900 + "px";
+    }
+    else{
+    console.log(scrollY)
+    parallaxx.style.backgroundPositionY = (-window.scrollY / 1) + 8400 + "px";
     // parallaxx.style.backgroundPositionY = -100 + (window.scrollY/(document.body.scrollHeight - window.innerHeight)) *100 + "px";
+ 
+}
 });
 
 // Fin de Partie brice

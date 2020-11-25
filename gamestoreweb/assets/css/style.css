@@ -142,10 +142,12 @@ input[type=checkbox] {
     margin-top: 10px;
 }
 
-@media all and (max-width: 767px) {
+ @media all and (max-width: 767px) {
     #parallax {
-        background-image: none;
+        background-size: 45rem ;
+        /* background-image: none;
+         background-position-y: 4500 px; */
     }
-}
+} 
 
 /* fin de partie brice */
