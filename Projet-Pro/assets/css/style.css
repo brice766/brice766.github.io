@@ -1,0 +1,84 @@
+/* body {
+  height: 100vh;
+  background-image: url(../img/pexels-leon-martinez-1552252.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+  overflow: hidden;
+} */
+
+#myVideo {
+
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center; 
+}
+
+
+.main{
+  width: 100%;
+  height: 100%;
+  
+}
+
+.logo{
+
+  width: 15rem;
+  height: 15rem; 
+
+
+}  
+
+.formulaire {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 13px;
+}
+
+.login{
+  color: white;
+ 
+}
+
+.loginContainer{
+  align-items: center;
+  display: flex;
+  color: white;
+
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: 'Finger Paint', cursive;
+  color: #111;
+}
+
+h2 {
+  font-size: 2.8rem;
+  font-family: 'Finger Paint', cursive;
+  color: white;
+}
+
+h1 span {
+  font-size: 3.5rem;
+  font-family:'Times New Roman', Times, serif;
+  color: red;
+}
+
+@media all and (max-width: 640px) {
+  h1 {
+  font-size: 2.3rem;
+  }
+}
+
+
+p {
+  font-family: 'Baloo Da 2', cursive;
+}
+
+.mainContainer {
+  margin-top: 20vh;
+}

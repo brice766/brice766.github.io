@@ -1,0 +1,64 @@
+body {
+  background-color: rosybrown;
+  font-family: 'Baloo Da 2', cursive;
+  /* height: 100vh; */
+}
+
+.page-footer {
+  background-color: rgba(0, 0, 0, 0.438);
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: 'Finger Paint', cursive;
+  color: rgba(0, 0, 0, 0.342);
+}
+
+@media all and (max-width: 640px) {
+  h1 {
+    font-size: 2.3rem;
+  }
+}
+
+h2 {
+  font-size: 3rem;
+  font-family: 'Finger Paint', cursive;
+  color: rgba(0, 0, 0, 0.342);
+}
+
+h3 {
+  font-size: 3rem;
+  font-family: 'Finger Paint', cursive;
+  color: rgba(0, 0, 0, 0.342);
+}
+
+
+p {
+  font-family: 'Baloo Da 2', cursive;
+}
+
+.navbar {
+  background-color: rgba(71, 74, 233, 0.164);
+}
+
+.mainContainer {
+  height: 100vh;
+}
+
+#carouselExampleControls {
+  width: 100%;
+  height: 72vh;
+}
+
+.carousel-inner {
+  height: 100%;
+}
+
+.carousel-item {
+  height: 100%;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  object-position: 50% 65%;
+}
