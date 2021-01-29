@@ -15,8 +15,6 @@ navigation.classList.toggle('active');
 }
 
 
-
-
 imagesArray = [
     "../assets/img/image1.jpg",
     "../assets/img/image2.jpg",
@@ -125,8 +123,3 @@ for (let i = 0; i < allBgImageBis.length; i++) {
         numberMemoryArrayBis[i] = randomNumber;
     }
 }
-
-
-
-
-

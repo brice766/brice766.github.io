@@ -20,61 +20,155 @@
   <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@500&display=swap" rel="stylesheet">
   <link href="style.css" rel="stylesheet">
 </head>
-
 <body>
   <!--Navbar -->
-
   <header>
-
     <a href="#" class="logo"> My-Fit <span>.</span> </a>
     <div class="menuToggle" onclick="toggleMenu()" id="toggleMenu"></div>
     <ul class="navigation" id="navigation">
       <li><a href="/page-Home/nouveautest.php">Accueil</a></li>
-      <li><a href="/page-Exercice/exercice.php"> Entrainement </a></li>
+      <li><a href="/page-Exercice/entrainement.php"> Entrainement </a></li>
       <li><a href="/page-Suivi/Suivi.php">Mon Suivi</a></li>
       <li><a href="#expert"></a>Expert</li>
       <li><a href="#contact"></a>contact</li>
     </ul>
-
-
   </header>
-
   <!--/.Navbar -->
-
-
-
   <div class="sectionnn">
-
     <section class="banner" id="banner">
       <div class="content">
-
       </div>
-
     </section>
-
   </div>
-
   <div class=" graf col-9">
     <canvas id="myChart"></canvas>
   </div>
-
-
-
+<div class="row justify-content-center">
+<div class="col-6 m-4" id="selection">
+  <select class="form-control form-control-lg">
+  <option selected>Trier par Muscle</option>
+  <option>Triceps</option>
+  <option>Biceps</option>
+  <option>Pectoraux</option>
+  <option>Dos</option>
+  <option>Epaule</option>
+  <option>Abdominaux</option>
+  <option>Ischio-Jambier</option>
+  <option>Fesse</option>
+  <option>Mollet</option>
+</select>
+</div>
+</div>
+  <table class="table">
+  <thead class="table-dark">
+    <tr>
+      <th scope="col">Date</th>
+      <th scope="col">Muscle</th>
+      <th scope="col">Exercice</th>
+      <th scope="col">Nb de Series</th>
+      <th scope="col">Nb de Répétitions</th>
+      <th scope="col">Difficulté de l'exercice</th>
+      <th scope="col">Lieu</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="table-danger">
+      <th scope="row">Danger</th>
+      <td>Pectoraux</td>
+      <td>Pompe</td>
+      <td>5</td>
+      <td>10</td>
+      <td>Moyen</td>
+      <td>A la Maison</td>
+    </tr>
+  
+    <tr class="table-light">
+      <th scope="row">Light</th>
+      <td>Jambes</td>
+      <td>Squat</td>
+      <td>8</td>
+      <td>6</td>
+      <td>Facile</td>
+      <td>A la Salle</td>
+    </tr>
+    <tr class="table-secondary">
+      <th scope="row">Secondary</th>
+      <td>Biceps</td>
+      <td>Curl</td>
+      <td>4</td>
+      <td>10</td>
+      <td>Dur</td>
+      <td>En Exterieux</td>
+    </tr>
+    <tr class="table-danger">
+      <th scope="row">Danger</th>
+      <td>Pectoraux</td>
+      <td>Pompe</td>
+      <td>5</td>
+      <td>10</td>
+      <td>Moyen</td>
+      <td>A la Maison</td>
+    </tr>
+  
+    <tr class="table-light">
+      <th scope="row">Light</th>
+      <td>Triceps</td>
+      <td>Pompe</td>
+      <td>5</td>
+      <td>10</td>
+      <td>Moyen</td>
+      <td>A la Maison</td>
+    </tr>
+    <tr class="table-secondary">
+      <th scope="row">Secondary</th>
+      <td>Pectoraux</td>
+      <td>Pompe</td>
+      <td>4</td>
+      <td>4</td>
+      <td>Dur</td>
+      <td>En Exterieur</td>
+    </tr>
+    <tr class="table-danger">
+      <th scope="row">Danger</th>
+      <td>Pectoraux</td>
+      <td>Pompe</td>
+      <td>5</td>
+      <td>10</td>
+      <td>Moyen</td>
+      <td>A la Maison</td>
+    </tr>
+  
+    <tr class="table-light">
+      <th scope="row">Light</th>
+      <td>Dos</td>
+      <td>Traction</td>
+      <td>4</td>
+      <td>6</td>
+      <td>Tres Dur</td>
+      <td>A la Salle</td>
+    </tr>
+    <tr class="table-secondary">
+      <th scope="row">Secondary</th>
+      <td>Pectoraux</td>
+      <td>Pompe</td>
+      <td>5</td>
+      <td>10</td>
+      <td>Moyen</td>
+      <td>A la Maison</td>
+    </tr>
+  </tbody>
+</table>
   <!-- Footer -->
   <footer class="page-footer font-small indigo bg-light">
-
     <!-- Footer Links -->
     <div class="container text-center text-md-left ">
-
       <!-- Grid row -->
       <div class="row">
         <!-- Grid column -->
         <div class="col-md-3 mx-auto">
-
           <img class="logo-footer pt-2 pl-4" src="Projet-pro/assets/img/logo-musculation2.png" height="110" alt="logo-footer">
           <!-- Links -->
           <h3 class="font-weight-bold text-uppercase mt-2 mb-4" id="footerMyfit"> My-Fit <span>.</span></h3>
-
           <ul class="list-unstyled">
             <li>
               <a href="#!">Mention légale</a>
@@ -89,18 +183,13 @@
               <a href="#!">Préferences de cookies</a>
             </li>
           </ul>
-
         </div>
         <!-- Grid column -->
-
         <hr class="clearfix w-100 d-md-none">
-
         <!-- Grid column -->
         <div class="col-md-3 mx-auto pt-lg-5">
-
           <!-- Links -->
           <h3 class="font-weight-bold text-uppercase mt-3 mb-4 pt-lg-5 titreFooter">Contact</h3>
-
           <ul class="list-unstyled">
             <li>
               <i class="fas fa-map-marker-alt mt-2"></i>66 rue de Paris 76600 Le Havre</a>
@@ -115,19 +204,13 @@
               <i class="fab fa-skype"></i> MY-FIT
             </li>
           </ul>
-
         </div>
         <!-- Grid column -->
-
         <hr class="clearfix w-100 d-md-none">
-
         <!-- Grid column -->
         <div class="col-md-3 mx-auto pt-lg-5">
-
           <!-- Links -->
           <h3 class="font-weight-bold text-uppercase mt-3 mb-4 pt-lg-5 titreFooter">Suivez-nous</h3>
-
-
           <p>
             <a href="#"><i class="fab fa-facebook  mt-2 m-1"></i></a>
             <a href="#"><i class="fab fa-twitter m-1"></i></a>
@@ -137,26 +220,18 @@
           </p>
         </div>
         <!-- Grid column -->
-
       </div>
       <!-- Grid row -->
-
     </div>
     <!-- Footer Links -->
-
     <!-- Copyright -->
     <div class="footer-copyright text-center py-3">© 2020 Copyright:
       <a href=""> MY-FIT </a>
     </div>
     <!-- Copyright -->
-
   </footer>
   <!-- Footer -->
-
   </div>
-
-
-
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
@@ -165,10 +240,7 @@
   </script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
   </script>
-
   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
   <script src="script.js"></script>
-
 </body>
-
 </html>

@@ -79,7 +79,6 @@ header a:hover {
 
 
 /* header.sticky .navigation li a {
-
     color: #fff;
 } */
 
@@ -324,4 +323,10 @@ p {
     align-items: center;
     margin-top: 25px;
     margin-left: 140px;
+}
+
+
+#selection {
+    text-align-last: center;
+    border: 1px solid black;
 }
